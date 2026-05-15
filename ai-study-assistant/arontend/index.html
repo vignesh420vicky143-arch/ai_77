@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>AI Powered Study Assistant</h1>
+
+        <input type="file" id="pdfFile">
+        <button onclick="uploadPDF()">Upload PDF</button>
+
+        <textarea id="question" placeholder="Ask a question..."></textarea>
+
+        <button onclick="askQuestion()">Ask AI</button>
+
+        <button onclick="getSummary()">Generate Summary</button>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
